@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+  <title>今昔マップのデータをclsDraw内のタイル形式に合わせる</title>
+  <script src="https://ktgis.net/kjmapw/kjmapdata.js"></script>
+
+<STYLE type="text/css">
+</STYLE>
+<script>
+var count = 1000000
+  function init() {
+    let tx = "";
+    for (let i = 0; i < kjmapDataSetList.length; i++) {
+      kdsl = kjmapDataSetList[i];
+      for (let j in kjmapDataSet[kdsl.folderName].age) {
+        let kjds = kjmapDataSet[kdsl.folderName].age[j];
+        let mxZoom = (kjds.scale == "1/50000") ? "15" : "16";
+        let tdataset = "MapTypeArray['kjmap_" +
+          kdsl.folderName +"_"+ j.toString() + "'] = {\n" +
+          "ReverseF: true,\n" +
+          "href: 'https://ktgis.net/kjmapw/kjtilemap/" + kdsl.folderName + "/" + kjds.folderName + "/{z}/{x}/{y}.png',\n" +
+          "copyright:'谷謙二',\n" +
+          "opt: {\n" +
+          "id: '今昔マップ" + String(kdsl.name) +"編"+ String(kjds.start) + "-" + String(kjds.end) + "年'" + "," +
+          "minZoom:8,maxNativeZoom:" + mxZoom + "," +
+          "attribution: '<a href=\"https://ktgis.net/kjmapw/\" target=\"_blank\">今昔マップ</a>'," +
+          "tag:'今昔マップ'\n" +
+          "}\n" + "};\n\n";
+        tx += tdataset;
+      }
+  }
+let el=document.getElementById("tarea");
+el.value=tx;
+}
+</script>
+</head>
+<body onLoad="init()">
+<textarea  id="tarea" style="width:600px;height:500px;border:solid 1px"></textarea>
+</body>
