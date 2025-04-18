@@ -1,0 +1,60 @@
+/* CSS fine for MANDARA_JS  index.html */
+body {
+    font-family: "Meiryo UI", sans-serif;
+    line-height: 20px;
+
+ A:link {
+    text-decoration: none;
+    color: blue
+ }
+
+ A:visited {
+    text-decoration: none;
+    color: blue
+ }
+
+ A:active {
+    text-decoration: none;
+    color: blue
+ }
+
+ A:hover {
+    text-decoration: underline;
+    color: #880088
+ }
+
+ div {
+    position: relative;
+    line-height: 25px;
+    font-size: 18px;
+ }
+
+ div.head {
+    background-color: #fdfdbd;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .grayFrame {
+    border: solid 1px #666666
+ }
+
+ .btn02 a {
+    padding: 10px;
+    font-size: 30px;
+    background-color: #eec8a0;
+    border: 1px solid #ceb849;
+    border-radius: 35px;
+    color: black;
+ }
+
+ .btn02 a:hover {
+    background-color: #be9880;
+    border: 1px solid #333;
+    color: white;
+    text-decoration: none;
+ }
+
+}

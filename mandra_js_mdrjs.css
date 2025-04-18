@@ -1,0 +1,109 @@
+/* CSS file for MANDARA_JS  mdrjs.html */
+body {
+    overflow: hidden ;
+    font-family:"Yu Gothic UI", 'Meiryo UI',"游ゴシック",'メイリオ',sans-serif;
+    font-size: 13px;
+    font-feature-settings: "palt" 1;
+}
+
+A:link { text-decoration:none; color:blue }
+A:visited { text-decoration:none; color:blue }
+A:active { text-decoration:none; color:blue }
+A:hover { text-decoration:underline; color:#880088 }
+.popMenu{
+    font-size: 18px
+}
+
+
+input[type="button"] {
+    -webkit-appearance: none;
+    appearance: none;
+    appearance: none;
+    appearance: none;
+    appearance: none;
+    appearance: none;
+    appearance: none;
+    border:solid 1px #ADADAD;
+    border-radius: 0px;
+    padding-top:2px;
+    padding-bottom:2px;
+    background-color: #e1e1e1;
+    color:black;
+}
+input[type="button"]:hover{background-color: #d1d1d1;
+    border:solid 2px #9D9D9D; }
+
+.btnDisable{color:#888888 !important;}
+.btnDisable:hover{background-color: #e1e1e1 !important;
+    border:solid 1px #ADADAD !important;}
+
+input[type="text"] {
+    -webkit-appearance: none;
+    appearance: none;
+    border:solid 1px #000000;
+    border-radius: 0px;
+    background-color: #ffffff;
+    margin-top:0;
+}
+
+select {background-color:#ffffff;
+      padding:0px;
+    border:solid 1px #000000;
+    border-radius: 3px;
+ }
+ select:hover{border:solid 2px #000000; }
+
+ .imgButton{
+    border: solid 1px #ADADAD;
+    background-color: #f1F1f1;
+ }
+ .imgButton:hover{background-color: #e1e1e1;
+    border:solid 2px #9D9D9D; }
+
+.numberCbox{
+    border:solid 1px #ADADAD;
+    border-radius: 3px;
+    overflow:hidden;
+}
+.numberCbox:hover{
+ border:solid 2px #9D9D9D; }
+
+.setting {
+    cursor: default
+}
+
+.grayFrame {
+    border: solid 1px #666666
+}
+
+table {
+    margin-left: 0em;
+    margin-bottom: 0em;
+    border-collapse: collapse;
+    border: 1px #1C79C6 solid;
+    padding: 2px;
+    background-color: #ffffff;
+}
+
+td {
+    border-collapse: collapse;
+    border: 1px #1C79C6 solid;
+    padding: 2px;
+}
+
+th {
+    border-collapse: collapse;
+    border: 1px #1C79C6 solid;
+    padding: 2px;
+    text-align: center;
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+
+div{
+    line-height: 1em;
+}
+span{
+    line-height: 1em;
+}
+
