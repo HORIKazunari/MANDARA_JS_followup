@@ -1640,7 +1640,7 @@ class spatial {
     }
 }
 
-class Generic {
+export class Generic {
 
     /**読み込み中マーク 処理終了後に Generic.clear_backDiv();で消す*/
     static readingIcon(title){

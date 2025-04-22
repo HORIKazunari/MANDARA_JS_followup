@@ -34,8 +34,6 @@ function logX(data) {
     } else {
         tx = data;
     }
-    // logWindow.value += tx + '\n\n'
-    // logWindow.scrollTop = logWindow.scrollHeight;
     console.log(tx)
 }
 let logWindow;
