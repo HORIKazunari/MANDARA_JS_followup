@@ -2,7 +2,7 @@
 /// <reference path="clsTime.js" />
 /// <reference path="main.js" />
 /// <reference path="SortingSearch.js" />
-/// <reference path="clsAttrdata.js" />
+/// <reference path="clsAttrData.js" />
 /// <reference path="clsDraw.js" />
 /// <reference path="SpatialIndexSearch.js" />
 
