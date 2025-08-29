@@ -3,7 +3,7 @@
 /// <reference path="main.js" />
 /// <reference path="clsMapdata.js" />
 
-export class clsTime  {
+class clsTime  {
     static GetNullYMD  () {
         var ymd = new strYMD(0, 0, 0)
         return ymd;
