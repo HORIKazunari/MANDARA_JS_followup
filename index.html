@@ -1,22 +1,17 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
 
-<head>
+<head prefix="og: http://ogp.me/ns#" >
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>MANDARA JS|ブラウザ上で動作する地理情報分析支援システム|フリーGIS</title>
    <meta name="keywords" content="MANDARA JS,フリーGIS,地理情報システム,統計地図,市町村地図,世界地図,Web地図サービス">
    <meta property="og:title" content="ブラウザGIS MANDARA JS" />
    <meta property="og:type" content="website" />
-   <meta property="og:url" content="https://ktgis.net/mdrjs/index.html" />
-   <meta property="og:image" content="https://ktgis.net/mdrjs/image/ogpimage.jpg" />
+   <meta property="og:url" content="https://webgis.celas.osaka-u.ac.jp/index.html" />
+   <meta property="og:image" content="https://webgis.celas.osaka-u.ac.jp/image/ogpimage.jpg" />
    <meta property="og:site_name" content="ブラウザGIS MANDARA JS" />
    <meta property="og:description" content="ブラウザGIS「MANDARA JS」はフリーのGISサイトで、ブラウザ上でエクセルのデータから簡単に統計地図などを作成できます。" />
-   <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:site" content="https://ktgis.net/mdrjs/index.html">
-   <meta name="twitter:image" content="https://ktgis.net/mdrjs/image/ogpimage.jpg" />
-   <meta name="twitter:title" content="ブラウザGIS MANDARA JS">
-   <meta name="twitter:description" content="ブラウザGIS「MANDARA JS」はフリーのGISサイトで、ブラウザ上でエクセルのデータから簡単に統計地図などを作成できます。">
    <link rel="SHORTCUT ICON" href="favicon.ico">
 
    <link rel="stylesheet" type="text/css" href="mandara_js_index.css">
@@ -33,7 +28,15 @@
       <img src="image/ogpimage.jpg" width=300 alt="OGP image"></div>
    <div class="absolute-position-container" style="position:absolute;top:190px;left:50px;width:660px;">
       <div>
-         <div class=" head">使ってみる</div>
+         <div class=" head">このWebサイトについて</div>
+         <div class="description">
+            このWebサイトは、谷謙二氏が開発されたMANDARA JS を長く使い続けられるよう、ktgis.net の情報を許可を得て写し、
+            提供するものです。
+            <br>
+            今後、新しいデータの提供や、ソフトウェアの改良を行っていきます。
+            <br>
+         </div>
+        <div class=" head">使ってみる</div>
          <br>
          <div align="center">
             <br>
@@ -47,40 +50,41 @@
          MANDARA JSをはじめて使う人は、データつきでいろいろ操作してみて下さい。「描画開始」ボタンで地図が表示されます。
          <ul>
             <li>
-               <a href="mdrjs.html?file=https://ktgis.net/mdrjs/data/japan_data.mdrj">日本の都道府県データ付き</a>
+               <a href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/japan_data.mdrj">日本の都道府県データ付き</a>
             </li>
             <li>
-               <a href="mdrjs.html?file=https://ktgis.net/mdrjs/data/japan_climate.mdrj">日本の気候データ（地点データ）付き</a>
+               <a href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/japan_climate.mdrj">日本の気候データ（地点データ）付き</a>
             </li>
 
             <li>
-               <a href="mdrjs.html?file=https://ktgis.net/mdrjs/data/landprice2021.mdrj">日本の地価データ（2021年地価公示）付き</a>
+               <a href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/landprice2021.mdrj">日本の地価データ（2021年地価公示）付き</a>
             </li>
             <li>
                <a
-                  href="mdrjs.html?file=https://ktgis.net/mdrjs/data/tokyo4mesh2015population.mdrj">東京の人口データ（4次メッシュ）付き</a>
+                  href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/tokyo4mesh2015population.mdrj">東京の人口データ（4次メッシュ）付き</a>
             </li>
             <li>
-               <a href="mdrjs.html?file=https://ktgis.net/mdrjs/data/worldpopulation2.mdrj">世界各国の人口データ付き</a>
+               <a href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/worldpopulation2.mdrj">世界各国の人口データ付き</a>
             </li>
             <li>
-               <a href="mdrjs.html?file=https://ktgis.net/mdrjs/data/worldpopulation3.mdrmj">世界各国の人口データ付き(経度0度中心)</a>
+               <a href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/worldpopulation3.mdrmj">世界各国の人口データ付き(経度0度中心)</a>
             </li>
 
             <li>
-               <a href="mdrjs.html?file=https://ktgis.net/mdrjs/data/japan_sityoson_pop.mdrmj">日本の市町村データ付き</a>
+               <a href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/japan_sityoson_pop.mdrmj">日本の市町村データ付き</a>
             </li>
             <li>
-               <a href="mdrjs.html?file=https://ktgis.net/mdrjs/data/tokyo_census2015.mdrmj">東京都区部小地域データ付き</a>
+               <a href="mdrjs.html?file=https://webgis.celas.osaka-u.ac.jp/data/tokyo_census2015.mdrmj">東京都区部小地域データ付き</a>
             </li>
          </ul>
       </div><br>
 
       <div>
          <div class=" head">MANDARA JSとは</div><br>
-         MANDARA JSは、Webブラウザ上で動作するGIS（地理情報システム）で、<a
-            href="http://ktgis.net/mandara/">Windows版MANDARA10</a>のWeb版となります。Webブラウザ上で動作するので、OSと関係なくタブレット端末でも使えます。Google
-         Chrome, Firefox, Edge, Safariなど標準的なブラウザで使えます。<br>
+         MANDARA JSは、Webブラウザ上で動作するGIS（地理情報システム）で、
+         Windows版MANDARA10のWeb版となります。<br>
+         Webブラウザ上で動作するので、OSと関係なくタブレット端末でも使えます。<br>
+         Google Chrome, Firefox, Edge, Safariなど標準的なブラウザで使えます。<br>
          <br>
          圧縮データの展開に zlib.js を使わせてもらっています。<br>
       </div><br>
@@ -141,16 +145,12 @@
          <br>
       </div><br>
       <div>
-         <div class="head">一括ダウンロード</div><br>
-         <a href="mandara js1_003.zip">MANDARA JS バージョン1.003</a>(2022/3/7)<br>
-         <br>
-         ダウンロード・展開後、index.htmlを開けば、ローカルPC上でMANDARA JSを実行できます。<br>
-         <br>
-         また、JavaScriptのソースコードのライセンスは、CC BY-SA です。作品名（MANDARA JS）、作者（谷謙二）を表示し、改変した場合には元の作品と同じCCライセンス（このライセンス）で公開することを主な条件に、営利目的での二次利用も許可されるCCライセンスです。<br>
-         zlibrev.jsはimaya様のコード（ MIT License）を使用しています。<br>
+         <div class="head">GitHub ソースコード情報</div><br>
+         このシステムのソースコードはGitHubで公開しています。<br>
+         <a href="https://github.com/HORIKazunari/MANDARA_JS_followup ">GitHub MANDARA_JS_followup Project</a><br>
       </div><br>
       <div>
-         <div class="head">FAQ</div><br>
+         <div class="head">Frequently Asked Questions</div><br>
          JSとは何ですか？
          <ul>
             <li>
@@ -180,37 +180,32 @@
          データはサーバーに記録されますか？
          <ul>
             <li>
-               データはご利用のPC等のプラウザ内で処理されます。MANDARAのサーバーには送られません。
+               データはご利用のPCやタブレット等のブラウザ内で処理されます。サーバーには送られません。
             </li>
          </ul>
-
+         <!--
          問題が発生しました
          <ul>
             <li>
                ブラウザのデベロッパーツールのコンソールを見ていただき、エラーの発生箇所を開発者のツイッターアカウント@ktgisまでご連絡ください。
             </li>
          </ul>
+         -->
 
       </div><br>
       <div>
          <div class=" head">更新状況</div><br>
          <table>
             <tr>
+               <td>2025/10/1</td>
+               <td>バージョン1.003</td>
+               <td>大阪大学サーバでの公開開始
+               </td>
+            </tr>
+            <tr>
                <td>2022/3/7</td>
                <td>バージョン1.003</td>
-               <td>エラー修正。
-               </td>
-            </tr>
-            <tr>
-               <td>2022/3/5</td>
-               <td>バージョン1.002</td>
-               <td>エラー修正。
-               </td>
-            </tr>
-            <tr>
-               <td>2022/2/23</td>
-               <td>バージョン1.001</td>
-               <td>地図ファイルにUSAとCHINAを追加。その他微修正。
+               <td>エラー修正(谷謙二氏による最終管理バージョン)
                </td>
             </tr>
             <tr>
@@ -220,94 +215,16 @@
                </td>
             </tr>
             <tr>
-               <td>2021/7/12</td>
-               <td></td>
-               <td>背景画像に今昔マップを追加
-               </td>
-            </tr>
-            <tr>
-               <td>2021/5/29</td>
-               <td>試作版0.005</td>
-               <td>自動ポイント・ループ間引き、シェープファイル読み込み時の位相構造化、データ計算機能追加
-               </td>
-            </tr>
-            <tr>
-               <td>2021/5/23</td>
-               <td></td>
-               <td>経度0°を中心とした地図ファイルWORLD2.mpfjを追加。その他エラーの修正
-               </td>
-            </tr>
-            <tr><td>2021/3/27</td>
-               <td></td>
-               <td>局地変動モード作成
-               </td>
-            </tr>
-            <tr>
-               <td>2021/3/22</td>
-               <td></td>
-               <td>データ値表示の際の小数点以下の桁設定
-               </td>
-            </tr>
-            <tr>
-               <td>2021/3/21</td>
-               <td></td>
-               <td>非表示オブジェクト削除機能を追加、その他エラーの修正。
-               </td>
-            </tr>
-            <tr>
-               <td>2021/3/15</td>
-               <td></td>
-               <td>線モード句点オブジェクトの設定を追加、その他エラーの修正。
-               </td>
-            </tr>
-            <tr><td>2021/3/10</td>
-               <td></td>
-               <td>ダミーオブジェクトの設定画面を追加、その他エラーの修正。
-               </td>
-            </tr>
-            <tr>
-               <td>2021/3/3</td>
-               <td>試作版0.004</td>
-               <td>属性データ編集機能を追加、その他エラーの修正。
-               </td>
-            </tr>
-            <tr>
-               <td>2021/1/5</td>
-               <td>試作版0.003</td>
-               <td>空間検索機能を追加、その他エラーの修正。
-               </td>
-            </tr>
-            <tr>
-               <td>2020/11/9</td>
-               <td>試作版0.002</td>
-               <td>距離測定機能、その他エラーの修正。サンプルデータのファイルサイズを小さくした。
-               </td>
-            </tr>
-            <tr>
-               <td>2020/10/1</td>
-               <td>試作版0.001</td>
-               <td>面積・周長取得、属性検索設定、データ項目設定コピー、連続表示モードにまとめて設定機能を追加
-               </td>
-            </tr>
-            <tr>
-               <td>2020/4/16</td>
-               <td>　試作版0.000</td>
-               <td>　試作版0.000公開
-               </td>
-            </tr>
-            <tr>
                <td>2019/3/1</td>
                <td></td>
-               <td>開発開始
+               <td>谷謙二氏による開発開始
                </td>
             </tr>
          </table>
       </div><br>
       <div>
-         <div class=" head">連絡先</div><br>
-         谷　謙二（埼玉大学教育学部　人文地理学研究室）<br>
-         Twitter　<a href="https://twitter.com/share" class="twitter-share-button">@kthis</a><br>
-         質問は<a href="https://ktgis.net/cp-bin/pppbbs4/pppbbs.php">MANDARAの掲示板</a>で受け付けています。<Br>
+         <div class=" head"> この Web ページの管理について</div><br>
+         このWebページは、大阪大学の堀　一成が管理しています。<br>
       </div><br>
    </div>
 
